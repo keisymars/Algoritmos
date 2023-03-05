@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+//soma de dois números inteiros
 int main()
 {
     int numero1, numero2, resultado;
     //numero 1
-    printf("Digite o primeiro numero\n");
+    printf("Digite o primeiro numero inteiro\n");
     scanf("%d", &numero1);
 
     //numero2
-    printf("Digite o segundo numero\n");
+    printf("Digite o segundo numero inteiro\n");
     scanf("%d", &numero2);
 
     resultado= numero1+numero2;
@@ -18,3 +20,4 @@ int main()
 
     return 0;
 }
+
