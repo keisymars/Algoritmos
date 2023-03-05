@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+//calculo de idade com base no ano
+int main()
+{
+    int nascimento, ano_atual, idade;
+    //ano atual
+    printf("Digite o ano atual\n");
+    scanf("%d", &ano_atual);
+
+    //nascimento
+    printf("Digite o ano de nascimento\n");
+    scanf("%d", &nascimento);
+
+    idade= ano_atual-nascimento;
+
+    printf("a sua idade e = %d\n", idade);
+
+    return 0;
+}
